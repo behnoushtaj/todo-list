@@ -1,0 +1,53 @@
+body {
+    background: #f0f8ff;
+  }
+  .container {
+    max-width: 400px;
+    margin-top: 90px;
+  }
+  .search i {
+    position: absolute;
+  }
+  .search {
+    position: relative;
+  }
+  .icon {
+    padding: 10px;
+    left: 0;
+  }
+  .input-field {
+    text-align: center;
+  }
+  
+  input[type="text"],
+  input[type="text"]:focus {
+    color: #000000;
+    border: none;
+    background: rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+  }
+  .todos li {
+    background: #6bb1ba;
+  }
+  .delete {
+    cursor: pointer;
+  }
+  
+  .filtered {
+    display: none !important;
+  }
+  .error {
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 10px;
+    color: red;
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 40px;
+    display: none;
+  }
+  
